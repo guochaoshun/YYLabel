@@ -1,0 +1,14 @@
+# Uncomment the next line to define a global platform for your project
+ platform :ios, '9.0'
+# CocoaPods资源地址
+#source 'https://cdn.cocoapods.org/'
+
+target 'testYY' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  pod 'YYText'
+  pod 'YYImage'
+  pod 'SDWebImage'
+
+end
